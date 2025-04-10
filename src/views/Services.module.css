@@ -1,0 +1,75 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.services-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #ECEDE5;
+    padding-bottom: 50px;
+  }
+  
+  .services-container h1 {
+    font-size: 2rem;
+    margin: 40px;
+  }
+  
+  .services-columns {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom:50px;
+  }
+  
+  .service-item {
+    flex: 1;
+    max-width: 300px;
+    min-width: 200px;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom:20px;
+    border: solid 2px #2f3a56;
+  }
+
+  
+  .service-item h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .service-item p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .service-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 8px;
+  }
+
+  .cta-button-wrapper {
+    text-align: center;
+    
+  }
+  
+  .cta-button {
+    background-color: #A88C76;
+    color: black;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #2f3a56;
+  }
+  
+  
